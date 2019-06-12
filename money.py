@@ -24,7 +24,10 @@ class Currency:
         """
         Should return the currency code, or code with symbol in parentheses.
         """
-        pass
+        if self.symbol is None:
+            return self.code
+        else:
+            return f"{(self.symbol)}"
 
     def __eq__(self, other):
         """
