@@ -15,7 +15,10 @@ class Currency:
         - symbol - optional symbol used to designate currency
         - digits -- number of significant digits used
         """
-        pass
+        self.name
+        self.code
+        self.symbol
+        self.digits
 
     def __str__(self):
         """
@@ -43,7 +46,8 @@ class Money:
         - amount -- quantity of currency
         - currency -- type of currency
         """
-        pass
+        self.amount
+        self.currency 
 
     def __str__(self):
         """
